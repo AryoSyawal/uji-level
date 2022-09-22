@@ -53,14 +53,14 @@
                     <form action="searchbuku.php
                     "><input type="text" placeholder="Search" name="search" autocomplete="off"><input type="submit"></form>
                     </div>
-                    <table cellspacing="0">
+                    <div class="tablebuku"><table cellspacing="0">
                     <tr class="rowatas">
                         <td>ID</td>
                         <td>Judul</td>
                         <td>Penulis</td>
                         <td>Penerbit</td>
                         <td>Jenis</td>
-                        <td>Tahun_Terbit</td>
+                        <td>Tahun Terbit</td>
                         <td>Action</td>
                         
                     </tr>
@@ -77,12 +77,12 @@
                         <td>$buku[jenis]</td>
                         <td>$buku[tahun_terbit]</td>
                         <td>
-                            <a href='formeditbuku.php?id_buku=".$buku['id_buku']."'>Edit</a>
+                            <a href='formeditbuku.php?id_buku=".$buku['id_buku']."'>Ubah</a>
                             <a href='hapusbuku.php?id_buku=".$buku['id_buku']."'>Hapus</a>
                         </td>
                     </tr>";
                     };
-                ?>
+                ?></div>
                 </table>
                 </div>
             </div>

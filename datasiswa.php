@@ -54,6 +54,7 @@
                     <form action="searchsiswa.php
                     " method="get"><input type="text" placeholder="Search" name="search" autocomplete="off"><input type="submit"></form>
                     </div>
+                    <div class="table">
                     <table cellspacing="0">
                     <tr class="rowatas">
                         <td>ID</td>
@@ -82,13 +83,14 @@
                         <td>$siswa[jenis_kelamin]</td>
                         <td>$siswa[tanggal_lahir]</td>
                         <td>
-                            <a href='formedit.php?id_siswa=".$siswa['id_siswa']."'>Edit</a>
+                            <a href='formedit.php?id_siswa=".$siswa['id_siswa']."'>Ubah</a>
                             <a href='hapus.php?id_siswa=".$siswa['id_siswa']."'>Hapus</a>
                         </td>
                     </tr>";
                     };
                 ?>
                 </table>
+                    </div>
                 </div>
             </div>
 

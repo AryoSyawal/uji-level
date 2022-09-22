@@ -105,6 +105,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    position: fixed;
 }
 
 #data .tengah .button {
@@ -147,8 +148,11 @@ body{
     top: 150px;
     position: absolute;
     left: 310px;
+    width: 80%;
 }
-
+#data .table{
+    overflow: auto;
+}
 #data .button .create{
     text-decoration: none;
     color: white;
@@ -169,7 +173,7 @@ body{
 #data .tablesiswa table{
     margin-top: 40px;
     text-align: center;
-
+    width: 1000px;
 }
 
 
@@ -178,7 +182,7 @@ body{
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
-    padding: 10px 35px;
+    padding: 10px 41px;
 }
 
 #data .tablesiswa tr td{
@@ -197,10 +201,7 @@ body{
     padding-left: 15px;
 }
 
-#data .tablesiswa tr td:nth-child(9){
-    display: flex;
-    gap: 10px;
-}
+
 
 
 #data .tablesiswa tr a:nth-child(2){
@@ -460,7 +461,7 @@ body{
 
 #edit .pelapisluar {
     background-color: black;
-    height: 610px;
+    height: 550px;
     width: 900px;
     position: absolute;
     top: 120px;
@@ -476,7 +477,7 @@ body{
     background-color: #4BADE4;
     display: flex;
     width: 850px;
-    height: 595px;
+    height: 535px;
     border: #4BADE4 solid 1px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -616,7 +617,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     left: -60px;
 }
 
@@ -656,9 +657,10 @@ body{
 
 #databuku .tablesiswa { 
     top: 150px;
-    position: absolute;
+    position: relative;
     table-layout: auto;
     width: 77%;
+    
 }
 
 #databuku .button .create{
@@ -681,8 +683,11 @@ body{
 #databuku .tablesiswa table{
     margin-top: 40px;
     text-align: center;
-    table-layout: auto;
+    
+}
 
+#databuku .tablebuku{
+    overflow: auto;
 }
 
 #databuku .tablesiswa table td{
@@ -695,7 +700,7 @@ body{
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
-    padding: 10px 35px;
+    padding: 10px 60px;
 }
 
 #databuku .tablesiswa tr td{
@@ -712,11 +717,6 @@ body{
     text-decoration: none;
     color: green;
 
-}
-
-#databuku .tablesiswa tr td:nth-child(7){
-    display: flex;
-    gap: 20px;
 }
 
 
@@ -840,7 +840,7 @@ body{
     height: 480px;
     width: 900px;
     position: absolute;
-    top: 120px;
+    top: 160px;
     left: 400px;
     border: black 1px solid;
     border-radius: 10px;

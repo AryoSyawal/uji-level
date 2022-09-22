@@ -1,0 +1,1046 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* data */
+/* menu */
+
+#data .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+}
+
+#data .menu .navbar {
+    position: fixed;
+}
+
+#data .container .navbar {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+}
+
+#data .navbar h1{
+    position: absolute;
+    color: white;
+    left: 100px;
+    font-family: 'Dangrek', cursive;
+}
+
+#data .navbar H2{
+    position: absolute;
+    color: #4BADE4;
+    left: 165px;
+    top: 11px;
+    font-family: 'Dangrek', cursive;
+}
+
+#data .container .navbar a:first-child img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#data .container .navbar a:nth-child(2) img{
+    position: absolute;
+    width: 50px;
+    left: 1450px;
+    top: 22px;
+}
+
+
+#data .container .menu{
+    background-color: #4BADE4;
+    width: 300px;
+    height: 663px;
+}
+
+#data .container .menu .menu-text{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 631px;
+    left: 25px;
+    position: absolute;
+    top: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#data .container .menu .menu-text a:first-child{
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    left: 15px;
+    height: 30px;
+    border-bottom: 1px #4BADE4 solid;
+    font-family: 'Quicksand', sans-serif;
+
+}
+#data .container .menu .menu-text a:nth-child(2){
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/* table */
+
+#data .tengah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#data .tengah .button {
+    height: 100px;
+}
+
+#data .tengah form{
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+#data .tengah form input[type=text]{
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    left: 900px;
+    z-index: 2;
+    background-color: white;
+}
+
+
+
+#data .tengah form input[type=submit]{
+    height: 29px;
+    width: 70px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;  
+    position: absolute;
+    z-index: 1;
+    left: 1050px;  
+}
+
+#data .tablesiswa {
+    display: flex;
+    flex-direction: column;
+    top: 150px;
+    position: absolute;
+    left: 310px;
+}
+
+#data .button .create{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: #4BADE4;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #4BADE4;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 85px;
+}
+
+#data .tablesiswa table{
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+
+#data .tablesiswa .rowatas td{
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    padding: 10px 35px;
+}
+
+#data .tablesiswa tr td{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(89, 78, 78);
+    box-sizing: border-box;
+    border-bottom: 1px #4BADE4 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#data .tablesiswa tr a:first-child{
+    text-decoration: none;
+    color: green;
+    padding-left: 15px;
+}
+
+#data .tablesiswa tr td:nth-child(9){
+    display: flex;
+    gap: 10px;
+}
+
+
+#data .tablesiswa tr a:nth-child(2){
+    text-decoration: none;
+    color: red;
+}
+
+/* data */
+
+/* create */
+
+#create .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#create .container .navbar {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+}
+
+#create .navbar h1{
+    position: absolute;
+    color: white;
+    left: 100px;
+    font-family: 'Dangrek', cursive;
+}
+
+#create .navbar H2{
+    position: absolute;
+    color: #4BADE4;
+    left: 165px;
+    top: 11px;
+    font-family: 'Dangrek', cursive;
+}
+
+#create .container .navbar a:first-child img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#create .container .navbar a:nth-child(2) img{
+    position: absolute;
+    width: 50px;
+    left: 1450px;
+    top: 22px;
+}
+
+
+
+#create .container .menu{
+    background-color: #4BADE4;
+    width: 300px;
+    height: 663px;
+}
+
+#create .container .menu .menu-text{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 631px;
+    left: 25px;
+    position: absolute;
+    top: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#create .container .menu .menu-text a:first-child{
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    left: 15px;
+    height: 30px;
+    border-bottom: 1px #4BADE4 solid;
+    font-family: 'Quicksand', sans-serif;
+
+}
+#create .container .menu .menu-text a:nth-child(2){
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#create .pelapisluar {
+    background-color: black;
+    height: 610px;
+    width: 900px;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    border: black 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
+
+#create .pelapisdalam{
+    background-color: #4BADE4;
+    display: flex;
+    width: 850px;
+    height: 595px;
+    border: #4BADE4 solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#create .pelapisdalam table{
+    margin-top: 50px;
+}
+
+#create table tr td{
+    padding-left: 75px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+} 
+
+#create table td .input-text{
+    width: 500px;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;   
+}
+
+#create table td input::placeholder{
+    opacity: 0.5;
+}
+
+#create input[type=submit]{
+    background-color: black;
+    border: 1px solid #4BADE4;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    left: 705px;
+}
+
+
+
+
+
+/* create */
+
+/*edit */
+#edit .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#edit .container .navbar {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+}
+
+#edit .navbar h1{
+    position: absolute;
+    color: white;
+    left: 100px;
+    font-family: 'Dangrek', cursive;
+}
+
+#edit .navbar H2{
+    position: absolute;
+    color: #4BADE4;
+    left: 165px;
+    top: 11px;
+    font-family: 'Dangrek', cursive;
+}
+
+#edit .container .navbar a:first-child img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#edit .container .navbar a:nth-child(2) img{
+    position: absolute;
+    width: 50px;
+    left: 1450px;
+    top: 22px;
+}
+
+
+#edit .container .menu{
+    background-color: #4BADE4;
+    width: 300px;
+    height: 663px;
+}
+
+#edit .container .menu .menu-text{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 631px;
+    left: 25px;
+    position: absolute;
+    top: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#edit .container .menu .menu-text a:first-child{
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    left: 15px;
+    height: 30px;
+    border-bottom: 1px #4BADE4 solid;
+    font-family: 'Quicksand', sans-serif;
+
+}
+#edit .container .menu .menu-text a:nth-child(2){
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#edit .pelapisluar {
+    background-color: black;
+    height: 610px;
+    width: 900px;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    border: black 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#edit .pelapisdalam{
+    background-color: #4BADE4;
+    display: flex;
+    width: 850px;
+    height: 595px;
+    border: #4BADE4 solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#edit table tr td{
+    padding-left: 75px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+} 
+
+#edit table td .input-text{
+    width: 500px;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;   
+}
+
+#edit table{
+    margin-top: 90px;
+}
+
+
+#edit input[type=submit]{
+    background-color: black;
+    border: 1px solid #4BADE4;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    left: 705px;
+}
+
+/* edit */
+
+/* datapinjam */
+#databuku .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+}
+
+#databuku .container .navbar {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+}
+
+#databuku .navbar h1{
+    position: absolute;
+    color: white;
+    left: 100px;
+    font-family: 'Dangrek', cursive;
+}
+
+#databuku .navbar H2{
+    position: absolute;
+    color: #4BADE4;
+    left: 165px;
+    top: 11px;
+    font-family: 'Dangrek', cursive;
+}
+
+#databuku .container .navbar a:first-child img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#databuku .container .navbar a:nth-child(2) img{
+    position: absolute;
+    width: 50px;
+    left: 1450px;
+    top: 22px;
+}
+
+
+#databuku .container .menu{
+    background-color: #4BADE4;
+    width: 300px;
+    height: 663px;
+}
+
+#databuku .container .menu .menu-text{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 631px;
+    left: 25px;
+    position: absolute;
+    top: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#databuku .container .menu .menu-text a:first-child{
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    left: 15px;
+    height: 30px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+#databuku .container .menu .menu-text a:nth-child(2){
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;;
+    border-bottom: 1px #4BADE4 solid;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+/* table */
+
+#databuku .tengah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: -60px;
+}
+
+#databuku .tengah .button {
+    height: 100px;
+}
+
+#databuku .tengah form{
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+#databuku .tengah form input[type=text]{
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    left: 900px;
+    z-index: 2;
+    background-color: white;
+}
+
+
+
+#databuku .tengah form input[type=submit]{
+    height: 29px;
+    width: 70px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;  
+    position: absolute;
+    z-index: 1;
+    left: 1050px;  
+}
+
+#databuku .tablesiswa { 
+    top: 150px;
+    position: absolute;
+    table-layout: auto;
+    width: 77%;
+}
+
+#databuku .button .create{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: #4BADE4;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #4BADE4;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 85px;
+}
+
+#databuku .tablesiswa table{
+    margin-top: 40px;
+    text-align: center;
+    table-layout: auto;
+
+}
+
+#databuku .tablesiswa table td{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#databuku .tablesiswa .rowatas td{
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    padding: 10px 35px;
+}
+
+#databuku .tablesiswa tr td{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(89, 78, 78);
+    box-sizing: border-box;
+    border-bottom: 1px #4BADE4 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#databuku .tablesiswa tr a:first-child{
+    text-decoration: none;
+    color: green;
+
+}
+
+#databuku .tablesiswa tr td:nth-child(7){
+    display: flex;
+    gap: 20px;
+}
+
+
+#databuku .tablesiswa tr a:nth-child(2){
+    text-decoration: none;
+    color: red;
+}
+
+/* buatdata */
+#createbuku .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#createbuku .container .navbar {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+}
+
+#createbuku .navbar h1{
+    position: absolute;
+    color: white;
+    left: 100px;
+    font-family: 'Dangrek', cursive;
+}
+
+#createbuku .navbar H2{
+    position: absolute;
+    color: #4BADE4;
+    left: 165px;
+    top: 11px;
+    font-family: 'Dangrek', cursive;
+}
+
+#createbuku .container .navbar a:first-child img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#createbuku .container .navbar a:nth-child(2) img{
+    position: absolute;
+    width: 50px;
+    left: 1450px;
+    top: 22px;
+}
+
+
+#createbuku .container .menu{
+    background-color: #4BADE4;
+    width: 300px;
+    height: 663px;
+}
+
+#createbuku .container .menu .menu-text{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 631px;
+    left: 25px;
+    position: absolute;
+    top: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#createbuku .container .menu .menu-text a:first-child{
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    left: 15px;
+    height: 30px;
+    font-family: 'Quicksand', sans-serif;;
+
+}
+#createbuku .container .menu .menu-text a:nth-child(2){
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;;
+    border-bottom: 1px #4BADE4 solid;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+
+/* table */
+
+#databuku .tengah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+#databuku .tablesiswa {
+    display: flex;
+    flex-direction: column;
+    top: 150px;
+    position: absolute;
+    left: 370px;
+
+}
+
+#createbuku .pelapisluar {
+    background-color: black;
+    height: 480px;
+    width: 900px;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    border: black 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#createbuku .pelapisdalam{
+    background-color: #4BADE4;
+    display: flex;
+    width: 850px;
+    height: 465px;
+    border: #4BADE4 solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#createbuku table tr td{
+    padding-left: 75px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+#createbuku table {
+    margin: 20px;
+}
+
+#createbuku table td .input-text{
+    width: 500px;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;   
+}
+
+#createbuku input[type=submit]{
+    background-color: black;
+    border: 1px solid #4BADE4;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    left: 705px;
+}
+
+#editbuku .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#editbuku .container .navbar {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+}
+
+#editbuku .navbar h1{
+    position: absolute;
+    color: white;
+    left: 100px;
+    font-family: 'Dangrek', cursive;
+}
+
+#editbuku .navbar H2{
+    position: absolute;
+    color: #4BADE4;
+    left: 165px;
+    top: 11px;
+    font-family: 'Dangrek', cursive;
+}
+
+#editbuku .container .navbar a:first-child img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#editbuku .container .navbar a:nth-child(2) img{
+    position: absolute;
+    width: 50px;
+    left: 1450px;
+    top: 22px;
+}
+
+
+#editbuku .container .menu{
+    background-color: #4BADE4;
+    width: 300px;
+    height: 663px;
+}
+
+#editbuku .container .menu .menu-text{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 631px;
+    left: 25px;
+    position: absolute;
+    top: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#editbuku .container .menu .menu-text a:first-child{
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    left: 15px;
+    height: 30px;
+    font-family: 'Quicksand', sans-serif;;
+
+}
+#editbuku .container .menu .menu-text a:nth-child(2){
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;;
+    border-bottom: 1px #4BADE4 solid;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+
+#editbuku .pelapisluar {
+    background-color: black;
+    height: 445px;
+    width: 900px;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    border: black 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 60px;
+}
+
+#editbuku .pelapisdalam{
+    background-color: #4BADE4;
+    display: flex;
+    width: 850px;
+    height: 425px;
+    border: #4BADE4 solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#editbuku table tr td{
+    padding-left: 75px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+} 
+
+#editbuku table {
+    margin: 20px;
+}
+
+#editbuku table td .input-text{
+    width: 500px;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;   
+}
+
+#editbuku input[type=submit]{
+    background-color: black;
+    border: 1px solid #4BADE4;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    left: 705px;
+}
+
+
+/* datapinjam */
+
